@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/note_background"
+    android:padding="8dp">
+    
+    <TextView
+        android:id="@+id/TitleTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Note Title"
+        />
+    <TextView
+        android:id="@+id/contentTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note Content"
+        android:layout_marginTop="4dp"/>
+
+
+</LinearLayout>
